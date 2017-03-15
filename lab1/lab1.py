@@ -13,7 +13,7 @@ class LogParser:
             file.close()
         splitted = data.split( "\n" )
         for word in splitted:
-            if string_to_found in word:
+            if string_to_find in word:
                 out.append(word)
         return out
 

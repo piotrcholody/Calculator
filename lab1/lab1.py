@@ -6,7 +6,7 @@ import sys
 class LogParser:
 
     @staticmethod
-    def parse_log(input_file, string_to_found):
+    def parse_log(input_file, string_to_find):
         out = []
         with open(input_file) as file:
             data = file.read()

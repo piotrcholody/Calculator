@@ -46,7 +46,7 @@ if __name__ == '__main__':
     if InputFileValidator.validate(File):
         parsed = LogParser.parse_log(File, "PrChecker.Downs")
         LogParser.save("out.txt", parsed)
-        os.system("jupyter notebook ./out_jupyter.txt")
+        # os.system("jupyter notebook ./out_jupyter.txt")
 
 
 

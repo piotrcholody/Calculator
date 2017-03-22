@@ -35,26 +35,26 @@ class AbstractCalculator(object):
 class Calculator(AbstractCalculator):
 
     def add(self, first, second):
-        InputDataValidator.InputDataValidator.validate(first, second, "add")
+        InputDataValidator.InputDataValidator.validate(self,first, second, "add")
         return first+second
 
     def subtract(self, first, second):
-        InputDataValidator.InputDataValidator.validate(first, second, "subtract")
+        InputDataValidator.InputDataValidator.validate(self,first, second, "subtract")
         return first-second
 
     def multiplicate(self, first, second):
-        InputDataValidator.InputDataValidator.validate(first, second, "multiplicate")
+        InputDataValidator.InputDataValidator.validate(self,first, second, "multiplicate")
         return first*second
 
     def divide(self, first, second):
-        InputDataValidator.InputDataValidator.validate(first, second, "divide")
+        InputDataValidator.InputDataValidator.validate(self,first, second, "divide")
         return first/second
 
     def logarithm(self, first, second):
-        InputDataValidator.InputDataValidator.validate(first, second, "logarithm")
+        InputDataValidator.InputDataValidator.validate(self,first, second, "logarithm")
         return math.log(first, second)
 
     def derivative(self, function, variable):
-        InputDataValidator.InputDataValidator.validate(function, variable, "derivative")
+        InputDataValidator.InputDataValidator.validate(self,function, variable, "derivative")
         return sympy.diff(function, 'x', variable)
 

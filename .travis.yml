@@ -2,5 +2,7 @@ language: python
 python: "3.6"
 install:
   - python -m pip install --upgrade pip
-  script: python test.py
-script: pytest
+script: 
+  - python lab2/test.py
+notifications:
+  email: false

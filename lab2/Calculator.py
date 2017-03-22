@@ -33,8 +33,6 @@ class AbstractCalculator(object):
 
 
 class Calculator(AbstractCalculator):
-    def __init__(self):
-        self._validator = InputDataValidator()
 
     def add(self, first, second):
         InputDataValidator.InputDataValidator.validate(self,first, second, "add")

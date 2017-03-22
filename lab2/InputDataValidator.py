@@ -13,30 +13,6 @@ class AbstractValidator(object):
 class InputDataValidator(AbstractValidator):
 
     @staticmethod
-    def _is_number(number):
-        return isinstance(number, (int, float))
-
-    @staticmethod
-    def _is_string(string):
-        return isinstance(string, str)
-
-    @staticmethod
-    def _is_zero(number):
-        return number == 0
-
-    @staticmethod
-    def _is_log_base_valid(number):
-        return number > 0 and number != 1
-
-    @staticmethod
-    def _is_positive(number):
-        return number > 0
-
-    @staticmethod
-    def _is_integer(number):
-        return isinstance(number, int)
-
-    @staticmethod
     def validate(self, first, second, equation):
         if equation != "derivative":
             if not self._is_number(first) or not self._is_number(second):

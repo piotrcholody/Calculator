@@ -6,7 +6,7 @@ Python in the Enterprise
 
 problem1.py - finds text in log file and puts results in out.txt file
 
-problem2.py - nothing yet
+problem2.py - works as word counter
 
 
 # lab2

@@ -10,6 +10,7 @@ problem2.py - nothing yet
 
 
 # lab2
+[![Build Status](https://travis-ci.org/piotrcholody/PItE.svg?branch=master)](https://travis-ci.org/piotrcholody/PItE)
 
 Calculator.py - simple calculator with addition, substraction, multiplication, division, natural logarithm and derivative
 

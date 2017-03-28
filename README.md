@@ -20,4 +20,7 @@ InputDataValidator.py - checks input
 
 test.py - implementation of unit tests for class Calculator which run with every commit by travis 
 
+
+installation:
+
 deriative is used from SymPy library which can be downloaded from: https://github.com/sympy/sympy/releases

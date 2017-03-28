@@ -4,7 +4,7 @@ Python in the Enterprise
 
 # lab1
 
-problem1.py - finds given text in log file and puts results in out.txt file
+problem1.py - finds text in log file and puts results in out.txt file
 
 problem2.py - nothing yet
 

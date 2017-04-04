@@ -10,7 +10,7 @@ problem2.py - works as word counter
 
 
 # lab2
-[![Build Status](https://travis-ci.org/piotrcholody/PItE.svg?branch=master)](https://travis-ci.org/piotrcholody/PItE)
+[![Build Status](https://travis-ci.org/piotrcholody/PItE-lab01-02.svg?branch=master)](https://travis-ci.org/piotrcholody/PItE-lab01-02)
 
 Calculator.py - simple calculator with addition, substraction, multiplication, division, natural logarithm and derivative
 

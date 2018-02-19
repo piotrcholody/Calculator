@@ -1,8 +1,7 @@
-# PItE-lab01-02
-Python in the Enterprise
+# Python in the Enterprise
 
 
-# lab1
+# lab1 - word finder and counter
 
 problem1.py - finds text in log file and puts results in out.txt file
 
